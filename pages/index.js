@@ -16,7 +16,7 @@ export default function Home() {
             <main className={styles.background}>
 
                 <div className={styles.nav}>
-                    <div className="rainbow-flex_column rainbow-m-around_large">
+                    <div>
                         <Avatar
                             src="https://cdn.discordapp.com/attachments/215603277214121984/1067433991487094844/DALLE_2023-01-24_14.21.17_-_background_purple.png"
                             size="medium"
