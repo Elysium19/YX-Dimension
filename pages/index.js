@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
-import {Avatar} from "react-rainbow-components";
+import {Avatar, ZoomableImage} from "react-rainbow-components";
 
 export default function Home() {
 
