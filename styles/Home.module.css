@@ -1,5 +1,7 @@
 .background{
-  background: black;
+  background-image: url('https://cdn.discordapp.com/attachments/927845269855420419/1067451598806208542/ydays_Basket_6.gif');
+  background-size: cover;
+  background-position: center;
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -7,16 +9,19 @@
 .nav{
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
   background: white;
   padding: 25px 35px;
   border-radius: 15px;
-  margin: 0 5px;
+  margin: 10px 5px;
+}
+.nav > div:nth-child(2){
+  margin: 25px 0;
 }
 .content{
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 80%;
 }
 .warp{
   display: flex;
@@ -27,18 +32,31 @@
   margin: auto;
   justify-content: center;
 }
-.titleCard{
-  font-size: 17px;
-  font-weight: bold;
-}
-.contentLike{
-  display: flex;
-}
 
 .imgScale{
+  width: 325px;
   border-radius: 15px;
   transition: 0.5s;
 }
 .imgScale:hover{
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 900px) {
+  .nav{
+    display: none;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .warp{
+    gap: 10px;
+  }
+  .imgScale{
+    width: 45%;
+    border-radius: 15px;
+    transition: 0.5s;
+  }
 }
