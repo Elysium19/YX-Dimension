@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
-import {Avatar, ZoomableImage} from "react-rainbow-components";
 
 export default function Home() {
 
@@ -17,10 +16,7 @@ export default function Home() {
 
                 <div className={styles.nav}>
                     <div>
-                        <Avatar
-                            src="https://cdn.discordapp.com/attachments/215603277214121984/1067433991487094844/DALLE_2023-01-24_14.21.17_-_background_purple.png"
-                            size="medium"
-                        />
+                        <img style={{width:'40px', height:'40px', borderRadius:'50%'}} src="https://cdn.discordapp.com/attachments/215603277214121984/1067433991487094844/DALLE_2023-01-24_14.21.17_-_background_purple.png"/>
                     </div>
                     <div>
                         <h1>XY-Dimension</h1>
@@ -30,14 +26,14 @@ export default function Home() {
 
                 <div className={styles.content}>
                     <div className={styles.warp}>
-                        <ZoomableImage className={styles.imgScale} src="./img1.png"/>
-                        <ZoomableImage className={styles.imgScale} src="./img1.png"/>
-                        <ZoomableImage className={styles.imgScale} src="./img1.png"/>
-                        <ZoomableImage className={styles.imgScale} src="./img1.png"/>
-                        <ZoomableImage className={styles.imgScale} src="./img1.png"/>
-                        <ZoomableImage className={styles.imgScale} src="./img1.png"/>
-                        <ZoomableImage className={styles.imgScale} src="./img1.png"/>
-                        <ZoomableImage className={styles.imgScale} src="./img1.png"/>
+                        <img className={styles.imgScale} src="./img1.png"/>
+                        <img className={styles.imgScale} src="./img1.png"/>
+                        <img className={styles.imgScale} src="./img1.png"/>
+                        <img className={styles.imgScale} src="./img1.png"/>
+                        <img className={styles.imgScale} src="./img1.png"/>
+                        <img className={styles.imgScale} src="./img1.png"/>
+                        <img className={styles.imgScale} src="./img1.png"/>
+                        <img className={styles.imgScale} src="./img1.png"/>
                     </div>
                 </div>
 
