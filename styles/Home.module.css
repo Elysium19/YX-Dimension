@@ -7,10 +7,20 @@
     width: 100vw;
 }
 
-.imgGlobal {
-    width: 40px;
-    height: 40px;
+.imgGlobal:nth-child(1) {
+    margin: 0px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+    border: 3px solid white;
+    z-index: 1;
+}
+.imgGlobal {
+    margin-left: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid white;
 }
 
 .nav {
@@ -55,7 +65,6 @@
 .imgScale:hover {
     transform: scale(1.05);
 }
-
 .imgScaleSelected {
     position: absolute;
     margin: auto;
