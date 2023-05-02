@@ -30,148 +30,81 @@ export default function Home() {
                         <h1>XY-Dimension</h1>
                         <p>Metavers</p>
                     </div>
+
+                    <div className={styles.liste}>
+                        <h3>Design :</h3>
+                        <div>Bryan</div>
+                        <div>Titouan</div>
+                        <div>Tommy</div>
+                    </div>
+
+                    <div className={styles.liste}>
+                        <h3>Dev :</h3>
+                        <div>William</div>
+                        <div>Hugo</div>
+                    </div>
                 </div>
 
                 <div className={styles.content}>
                     <div className={styles.warp}>
                         <img className={styles.imgScale}
-                             onClick={() => setState(1)} src="./img1.png" alt={"img"}/>
+                             onClick={() => setState(1)}
+                             src="https://cdn.discordapp.com/attachments/1091371450021204039/1103065168025493515/Pose_4_Lined_V2.png"
+                             alt={"img"}/>
                         {state === 1 &&
-                            <img className={state === 1 && styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
+                            <div className={styles.backgroundImg} >
+                                <img className={state === 1 && styles.imgScaleSelected}
+                                     src="https://cdn.discordapp.com/attachments/1091371450021204039/1103065168025493515/Pose_4_Lined_V2.png"
+                                     alt={"img"}/>
+                            </div>
                         }
 
                         <img className={styles.imgScale}
-                             onClick={() => setState(2)} src="./img1.png" alt={"img"}/>
+                             onClick={() => setState(2)}
+                             src="https://cdn.discordapp.com/attachments/1091371450021204039/1103066375989252166/Pose_3_Lined.png"
+                             alt={"img"}/>
                         {state === 2 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
+                            <div className={styles.backgroundImg} >
+                                <img className={styles.imgScaleSelected}
+                                     src="https://cdn.discordapp.com/attachments/1091371450021204039/1103066375989252166/Pose_3_Lined.png"
+                                     alt={"img"}/>
+                            </div>
                         }
 
                         <img className={styles.imgScale}
-                             onClick={() => setState(3)} src="./img1.png" alt={"img"}/>
+                             onClick={() => setState(3)}
+                             src="https://cdn.discordapp.com/attachments/1091371450021204039/1103071970913955880/Pose_2_Lined.png"
+                             alt={"img"}/>
                         {state === 3 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
+                            <div className={styles.backgroundImg} >
+                                <img className={styles.imgScaleSelected}
+                                     src="https://cdn.discordapp.com/attachments/1091371450021204039/1103071970913955880/Pose_2_Lined.png"
+                                     alt={"img"}/>
+                            </div>
                         }
 
                         <img className={styles.imgScale}
-                             onClick={() => setState(4)} src="./img1.png" alt={"img"}/>
+                             onClick={() => setState(4)}
+                             src="https://cdn.discordapp.com/attachments/1091371450021204039/1103076074096705546/Pose_1_Lined.png"
+                             alt={"img"}/>
                         {state === 4 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
+                            <div className={styles.backgroundImg} >
+                                <img className={styles.imgScaleSelected}
+                                     src="https://cdn.discordapp.com/attachments/1091371450021204039/1103076074096705546/Pose_1_Lined.png"
+                                     alt={"img"}/>
+                            </div>
                         }
 
                         <img className={styles.imgScale}
-                             onClick={() => setState(5)} src="./img1.png" alt={"img"}/>
+                             onClick={() => setState(5)}
+                             src="https://cdn.discordapp.com/attachments/1091371450021204039/1103091400259670096/Pose_5_Lined.png"
+                             alt={"img"}/>
                         {state === 5 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(6)} src="./img1.png" alt={"img"}/>
-                        {state === 6 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(7)} src="./img1.png" alt={"img"}/>
-                        {state === 7 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(8)} src="./img1.png" alt={"img"}/>
-                        {state === 8 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(9)} src="./img1.png" alt={"img"}/>
-                        {state === 9 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(10)} src="./img1.png" alt={"img"}/>
-                        {state === 10 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(11)} src="./img1.png" alt={"img"}/>
-                        {state === 11 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(12)} src="./img1.png" alt={"img"}/>
-                        {state === 12 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(13)} src="./img1.png" alt={"img"}/>
-                        {state === 13 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(14)} src="./img1.png" alt={"img"}/>
-                        {state === 14 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(15)} src="./img1.png" alt={"img"}/>
-                        {state === 15 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(16)} src="./img1.png" alt={"img"}/>
-                        {state === 16 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(17)} src="./img1.png" alt={"img"}/>
-                        {state === 17 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(18)} src="./img1.png" alt={"img"}/>
-                        {state === 18 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(19)} src="./img1.png" alt={"img"}/>
-                        {state === 19 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
-                        }
-
-                        <img className={styles.imgScale}
-                             onClick={() => setState(20)} src="./img1.png" alt={"img"}/>
-                        {state === 20 &&
-                            <img className={styles.imgScaleSelected}
-                                 src="./img1.png" alt={"img"}/>
+                            <div className={styles.backgroundImg} >
+                                <img className={styles.imgScaleSelected}
+                                     src="https://cdn.discordapp.com/attachments/1091371450021204039/1103091400259670096/Pose_5_Lined.png"
+                                     alt={"img"}/>
+                            </div>
                         }
 
                     </div>

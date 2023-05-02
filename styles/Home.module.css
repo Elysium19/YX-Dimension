@@ -38,6 +38,16 @@
     margin: 25px 0;
 }
 
+.liste{
+    margin-top: 45px;
+}
+.liste > div{
+    margin: 5px 0;
+}
+.liste > h3{
+    text-decoration: underline;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -54,8 +64,20 @@
     justify-content: center;
 }
 
+.backgroundImg{
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    margin: auto;
+    transform: translate(-50%,-50%);
+}
+
 .imgScale {
-    width: 325px;
+    width: 250px;
     border-radius: 15px;
     transition: 0.5s;
     cursor: pointer;
@@ -66,12 +88,8 @@
     transform: scale(1.05);
 }
 .imgScaleSelected {
-    position: absolute;
     margin: auto;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    height: 90vh;
     animation: selected 0.3s;
     cursor: pointer;
 }
