@@ -36,6 +36,7 @@ export default function Home() {
                         <div>Bryan</div>
                         <div>Titouan</div>
                         <div>Tommy</div>
+                        <div>Florian</div>
                     </div>
 
                     <div className={styles.liste}>
@@ -103,6 +104,30 @@ export default function Home() {
                             <div className={styles.backgroundImg} >
                                 <img className={styles.imgScaleSelected}
                                      src="https://cdn.discordapp.com/attachments/1091371450021204039/1103091400259670096/Pose_5_Lined.png"
+                                     alt={"img"}/>
+                            </div>
+                        }
+
+                        <img className={styles.imgScale}
+                             onClick={() => setState(6)}
+                             src="https://cdn.discordapp.com/attachments/1034737672176017504/1103218170711527434/Capture_decran_2023-05-03_091416.png"
+                             alt={"img"}/>
+                        {state === 6 &&
+                            <div className={styles.backgroundImg} >
+                                <img className={styles.imgScaleSelected}
+                                     src="https://cdn.discordapp.com/attachments/1034737672176017504/1103218170711527434/Capture_decran_2023-05-03_091416.png"
+                                     alt={"img"}/>
+                            </div>
+                        }
+
+                        <img className={styles.imgScale}
+                             onClick={() => setState(7)}
+                             src="https://cdn.discordapp.com/attachments/1034737672176017504/1103218170975756328/BPR_Composite.jpg"
+                             alt={"img"}/>
+                        {state === 7 &&
+                            <div className={styles.backgroundImg} >
+                                <img className={styles.imgScaleSelected}
+                                     src="https://cdn.discordapp.com/attachments/1034737672176017504/1103218170975756328/BPR_Composite.jpg"
                                      alt={"img"}/>
                             </div>
                         }
